@@ -28,4 +28,13 @@
     &-Link {
         font-size: 12px;
     }
+    &--Footer{
+        width: 680px;
+        margin: 0 auto;
+        height: 200px;
+        background: yellow;
+        position: relative;
+        top: 680px;
+        align-items: center;
+    }
 }
