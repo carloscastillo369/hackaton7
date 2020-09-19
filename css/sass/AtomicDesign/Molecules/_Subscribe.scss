@@ -25,16 +25,30 @@
         text-align: center;
         padding-top: 6px;
     }
+    &--ButtonBlack {
+        border: 1px solid black;
+    }
     &-Link {
         font-size: 12px;
     }
     &--Footer{
+        flex-wrap: wrap;
         width: 680px;
+        height: 130px;
         margin: 0 auto;
-        height: 200px;
         background: yellow;
-        position: relative;
-        top: 680px;
         align-items: center;
+    }
+    &-FooterTitle {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    &-FooterFoot {
+        width: 100%;
+        text-align: center;
+        font-size: 8px;
+        font-weight: normal;
     }
 }
