@@ -1,0 +1,11 @@
+.Table {
+    &-Title {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &-Column {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+}

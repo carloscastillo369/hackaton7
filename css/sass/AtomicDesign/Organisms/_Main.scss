@@ -1,0 +1,33 @@
+.Main {
+    width: 660px;
+    height: 1000px;
+    margin: 0 auto;
+    &-Icons {
+        display: flex;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    &-Cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &-Table {
+        width: 100%;
+        height: 250px;
+        margin-top: 60px;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    &-TableGrid{
+        display: grid;
+        align-items: center;
+        height: 220px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(6,1fr);
+        margin: 0 50px;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+}

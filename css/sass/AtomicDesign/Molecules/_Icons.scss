@@ -1,0 +1,15 @@
+.Icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-Text {
+        text-align: center;
+        font-size: 8px;
+        opacity: 0.4;
+        margin-top: 10px;
+    }
+    &-Img {
+        width: 35px;
+        height: 35px;
+    }
+}

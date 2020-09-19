@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -12,7 +16,7 @@ a {
 
 .Background-Top {
   width: 100vw;
-  height: 1000px;
+  height: 1400px;
   background: yellow;
   position: absolute;
   top: 0;
@@ -24,7 +28,7 @@ a {
   height: 1000px;
   background: skyblue;
   position: absolute;
-  top: 1000px;
+  top: 1400px;
   z-index: 1;
 }
 
@@ -78,6 +82,26 @@ a {
   height: 32px;
 }
 
+.Subscribe-Input::-webkit-input-placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.Subscribe-Input:-ms-input-placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.Subscribe-Input::-ms-input-placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.Subscribe-Input::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
 .Subscribe-Button {
   width: 100px;
   height: 32px;
@@ -85,6 +109,322 @@ a {
   border-radius: 5%;
   text-align: center;
   padding-top: 6px;
+}
+
+.Subscribe-Link {
+  font-size: 12px;
+}
+
+.Icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Icon-Text {
+  text-align: center;
+  font-size: 8px;
+  opacity: 0.4;
+  margin-top: 10px;
+}
+
+.Icon-Img {
+  width: 35px;
+  height: 35px;
+}
+
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.About-Title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.About-Card {
+  width: 420px;
+  height: 200px;
+  padding: 20px;
+  background: yellow;
+  padding-left: 120px;
+  position: relative;
+}
+
+.About-CardTitle {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.About-CardSubtitle {
+  font-size: 12px;
+}
+
+.About-Text {
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+.About-Img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.About-Logo {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.About-Items {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.About-Item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.Card {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 320px;
+  height: 180px;
+  padding: 15px;
+}
+
+.Card-Title {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.Card-Items {
+  list-style: inside;
+}
+
+.Card-Item {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.Card-Text {
+  font-size: 12px;
+  width: 140px;
+  line-height: 20px;
+}
+
+.Card-Foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.Prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Prices-Title {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.Prices-Subtitle {
+  text-align: center;
+  width: 100%;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.Prices-Option {
+  width: 180px;
+  height: 188px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.Option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+.Option-Title {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Option-Number {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.Option-Text {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.Option--FirstOption {
+  background: yellow;
+}
+
+.Option-Contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.Option--FirstContain {
+  width: 90px;
+  height: 90px;
+  border: 1px solid yellow;
+  border-radius: 100%;
+  background: white;
+}
+
+.Option-Foot {
+  font-size: 12px;
+  text-align: center;
+}
+
+.Option--FirstOptionFoot {
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+}
+
+.Table-Title {
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Table-Column {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Comments {
+  width: 550px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Comments-Title {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Comments-Comment {
+  width: 270px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.Comment-Title {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.Comment-Subtitle {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.Comment-Text {
+  font-size: 10px;
+  opacity: 0.6;
+  line-height: 15px;
+}
+
+.Comment-Img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
 }
 
 .Header {
@@ -114,9 +454,59 @@ a {
   margin-top: 15px;
 }
 
+.Main {
+  width: 660px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.Main-Icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Main-Cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.Main-Table {
+  width: 100%;
+  height: 250px;
+  margin-top: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Main-TableGrid {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 220px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  margin: 0 50px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
 .Container {
   width: 970px;
-  height: 2000px;
+  height: 2500px;
   margin: 0 auto;
   margin-top: 174px;
   border: 1px solid black;

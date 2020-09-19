@@ -1,0 +1,53 @@
+.About {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &-Title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    &-Card {
+        width: 420px;
+        height: 200px;
+        padding: 20px;
+        background: yellow;
+        padding-left: 120px;
+        position: relative;
+    }
+    &-CardTitle {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    &-CardSubtitle {
+        font-size: 12px;
+    }
+    &-Text {
+        font-size: 12px;
+        margin-top: 60px;
+    }
+    &-Img {
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+    }
+    &-Logo {
+        position: absolute;
+        right: 5%;
+        top: 10%;
+    }
+    &-Items {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &-Item {
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        opacity: 0.8;
+    }
+
+}

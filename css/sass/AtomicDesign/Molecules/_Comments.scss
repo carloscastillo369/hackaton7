@@ -1,0 +1,46 @@
+.Comments {
+    width: 550px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &-Title {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &-Comment {
+        width: 270px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.Comment {
+    &-Title {
+        font-size: 14px;
+        opacity: 0.6;
+    }
+    &-Subtitle {
+        font-size: 10px;
+        opacity: 0.6;
+    }
+    &-Text {
+        font-size: 10px;
+        opacity: 0.6;
+        line-height: 15px;
+    }
+    &-Img {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+    }
+}

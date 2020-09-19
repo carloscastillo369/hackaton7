@@ -1,0 +1,27 @@
+.Card {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 320px;
+    height: 180px;
+    padding: 15px;
+    &-Title {
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    &-Items {
+        list-style: inside;
+    }
+    &-Item {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    &-Text {
+        font-size: 12px;
+        width: 140px;
+        line-height: 20px;
+    }
+    &-Foot {
+        display: flex;
+        margin-top: 20px;;
+    }
+}
