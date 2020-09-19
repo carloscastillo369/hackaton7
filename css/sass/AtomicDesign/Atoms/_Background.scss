@@ -1,0 +1,18 @@
+.Background {
+    &-Top {
+        width: 100vw;
+        height: 1000px;
+        background: yellow;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+    &-Bottom {
+        width: 100vw;
+        height: 1000px;
+        background: skyblue;
+        position: absolute; 
+        top: 1000px;
+        z-index: 1;
+    }
+}

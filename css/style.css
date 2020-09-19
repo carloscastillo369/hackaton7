@@ -1,0 +1,128 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Background-Top {
+  width: 100vw;
+  height: 1000px;
+  background: yellow;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.Background-Bottom {
+  width: 100vw;
+  height: 1000px;
+  background: skyblue;
+  position: absolute;
+  top: 1000px;
+  z-index: 1;
+}
+
+.Logo {
+  display: inline-block;
+  position: relative;
+  left: 14%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+.Logo-Link {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.Phone {
+  display: inline-block;
+  position: relative;
+  left: 62%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  font-size: 12px;
+}
+
+.Phone-Img {
+  width: 11px;
+  height: 11px;
+}
+
+.Subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Subscribe-LastName {
+  margin-left: 10px;
+}
+
+.Subscribe-Button {
+  margin-left: 24px;
+}
+
+.Subscribe-Input {
+  width: 138px;
+  height: 32px;
+}
+
+.Subscribe-Button {
+  width: 100px;
+  height: 32px;
+  background: yellow;
+  border-radius: 5%;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.Header {
+  width: 100%;
+  height: 316px;
+  background: #F5F5DC;
+}
+
+.Header-Title {
+  width: 500px;
+  position: relative;
+  left: 24%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.Header-Subtitle {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.Header-Foot {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Container {
+  width: 970px;
+  height: 2000px;
+  margin: 0 auto;
+  margin-top: 174px;
+  border: 1px solid black;
+  position: relative;
+  background: white;
+  z-index: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

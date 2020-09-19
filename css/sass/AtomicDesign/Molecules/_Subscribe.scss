@@ -1,0 +1,24 @@
+.Subscribe {
+    display: flex;
+    justify-content: center;
+    &-LastName {
+        margin-left: 10px;
+
+    }
+    &-Button {
+        margin-left: 24px;
+
+    }
+    &-Input {
+        width: 138px;
+        height: 32px;
+    }
+    &-Button {
+        width: 100px;
+        height: 32px;
+        background: yellow;
+        border-radius: 5%;
+        text-align: center;
+        padding-top: 6px;
+    }
+}
